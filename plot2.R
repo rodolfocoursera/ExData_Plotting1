@@ -31,7 +31,7 @@
     Sys.setlocale("LC_TIME", "C");
 
 # Ploting Global Active Power along the time and saving to a PNG file
-    png(filename="ExData_Plotting1/figure/plot2.png", width=480, height=480)
+    png(filename="ExData_Plotting1/plot2.png", width=480, height=480)
     
     plot(y=pconsum$Global_active_power, x=pconsum$Time, type="l"
          , ylab="Global Active Power (kilowatts)", xlab="")

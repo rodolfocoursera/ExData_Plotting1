@@ -33,7 +33,7 @@
     Sys.setlocale("LC_TIME", "C");
 
 # Ploting energy sub metering along the date/time and saving to a PNG file
-    png(filename="ExData_Plotting1/figure/plot3.png", width=480, height=480)
+    png(filename="ExData_Plotting1/plot3.png", width=480, height=480)
     
     plot(y=pconsum$Sub_metering_1, x=pconsum$Time, type="l"
          , ylab="Energy sub metering", xlab="")

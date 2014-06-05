@@ -29,7 +29,7 @@
 
 
 # Ploting histogram of global active power and saving to a PNG file
-    png(filename="ExData_Plotting1/figure/plot1.png", width=480, height=480)
+    png(filename="ExData_Plotting1/plot1.png", width=480, height=480)
     
     hist(pconsum$Global_active_power, main="Global Active Power"
          , xlab="Global Active Power (kilowatts)", ylab="Frequency", col="red")

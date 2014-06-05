@@ -34,7 +34,7 @@
 
     
 # Setting the output device to save the graphics to a PNG file
-    png(filename="ExData_Plotting1/figure/plot4.png", width=480, height=480)
+    png(filename="ExData_Plotting1/plot4.png", width=480, height=480)
 
 # Preparing the frame to plot the four graphics in 2x2
     par(mfcol=c(2,2))
